@@ -5,8 +5,6 @@
 #if not ask if L[i] is smaller or greater than e
 #Search either on left or right of e
 
-# cook your dish here
-
 def search(L,e):
 
     def binarySearch(L,e,low,high):
