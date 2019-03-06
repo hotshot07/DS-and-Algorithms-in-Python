@@ -39,11 +39,11 @@ def EloRating(Ra, Rb, d):
 
 # Ra and Rb are current ELO ratings
 Players={
-    'Mayank':1400,
-    'Jiya':1400,
-    'Jaina':1400,
-    'Trisha':1400,
-    'Chair':1400
+    'Player1':1400,
+    'Player2':1400,
+    'Player3':1400,
+    'Player4':1400,
+    'Player5':1400
 }
 
 i=0
@@ -111,3 +111,6 @@ print(i)
 
 print(Players)
 print(Matches)
+
+#I've written the program in such a way that there will be 2*(nC2) matches.
+#Like home and away
